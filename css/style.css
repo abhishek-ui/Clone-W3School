@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body {
+  background-color: #f1f1f1;
+  color: #555555;
+  font-size: 14px;
+  margin: 0;
+  font-family: verdana,helvetica,arial,sans-serif;
+}
+a {
+    font-style: normal;
+    text-decoration: none;
+	transition: all 0.5s ease-in 0s;
+  -moz-transition: all 0.5s ease-in 0s;
+  -webkit-transition: all 0.5s ease-in 0s;
+  -ms-transition: all 0.5s ease-in 0s;
+}
+a:hover{
+	text-decoration:none;	
+}
+
+ul {
+    list-style: none outside none;
+	float: left;
+	width: 100%;
+}
+img{
+	max-width:100%;	
+}
+h1, h2 {
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0;
+}
+a.btn {
+  background-color: #f1f1f1;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #555555;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  padding: 8px;
+  text-decoration: none;
+  width: 170px;
+}
+a.btn:hover {
+  background-color: #555555;
+  border: 1px solid #555555;
+  color: #ffffff;
+}
+.popoverlay {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height:100%;
+}
+.popup {
+  background: linear-gradient(#fadfdf, #fa8686) #fadfdf;
+  background: -webkit-linear-gradient(#fadfdf, #fa8686);
+  background: -moz-linear-gradient(#fadfdf, #fa8686);
+  background: -ms-linear-gradient(#fadfdf, #fa8686);
+  box-shadow: -2px 0 5px 6px #505050;
+  -webkit-box-shadow: -2px 0 5px 6px #505050;
+  -moz-box-shadow: -2px 0 5px 6px #505050;
+  -ms-box-shadow: -2px 0 5px 6px #505050;
+  padding: 20px 20px 40px;
+  text-align: center;
+  top: 45%;
+}
+.popup > h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+.header .container{
+	position:relative;
+}
+.srch-section {
+  bottom: 20px;
+  position: absolute;
+  right: 0;
+}
+.search-box input {
+  border: 1px solid #d9d9d9;
+  height: 25px;
+  padding: 0 5px;
+  width: 100%;
+}
+.search-icon a {
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height:25px;
+}
+.search-icon {
+  background: none repeat scroll 0 0 #555555;
+}
+.navbar-toggle {
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 2px 10px;
+}
+.navbar-toggle .icon-bar {
+  background: none repeat scroll 0 0 #777777;
+  height:3px;
+}
+.section .container {
+  background-color: #ffffff;
+  padding:0 0 40px 40px;
+  box-shadow: 0 10px 20px 3px #d3d3d3;
+  -moz-box-shadow: 0 10px 20px 3px #d3d3d3;
+  -webkit-box-shadow: 0 10px 20px 3px #d3d3d3;
+  -ms-box-shadow: 0 10px 20px 3px #d3d3d3;
+}
+.left-aside {
+  margin-top: 25px;
+}
+.left-chapter {
+  float: left;
+  width: 100%;
+}
+.left-chapter h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+.left-chapter li {
+  line-height: 1.6;
+}
+.left-chapter a {
+  color: #555555;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.left-chapter a::before {
+  color: #ff4800;
+  content: ">> ";
+  font-weight: bold;
+  font-size:11px;
+}
+.tut-intro {
+  margin-top: 45px;
+}
+.logo-html{
+	background-color:#87C71D
+}
+.logo-css{
+	background-color:#07B3D3;
+}
+.logo-javascript{
+	background-color:#555555;
+}
+.logo-sql{
+	background-color:#FF9900;
+}
+.logo-php{
+	background-color:#41BC81;
+}
+.logo-jquery{
+	background-color:#6A8CE9;
+}
+
+.logoimg {
+  background-image: url("../images/w3logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 3px #d3d3d3;
+  -webkit-box-shadow: 0 10px 20px 3px #d3d3d3;
+  -moz-box-shadow: 0 10px 20px 3px #d3d3d3;
+  -ms-box-shadow: 0 10px 20px 3px #d3d3d3;
+  float: left;
+  height: 80px;
+  margin-left: 15px;
+  width: 100px;
+}
+.tutlogo a {
+  color: #555555;
+}
+.tutlogo h1 {
+  float: left;
+  font-size: 32px;
+  height: 80px;
+  font-weight:normal;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 18px;
+}
+.tutbuttons {
+  margin: 15px 0;
+}
+.tutbuttons > a {
+  background-color: #f1f1f1;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #555555;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 8px;
+  text-decoration: none;
+  width: 80%;
+}
+.tutbuttons > a:hover {
+  background-color: #555555;
+  border: 1px solid #555555;
+  color: #ffffff;
+}
+.margin-right1{
+	margin-right:8.3%;
+}
+.tutdemo {
+  background-color: #f1f1f1;
+  border: 1px solid #e3e3e3;
+  margin-left: 15px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  clear:both;
+}
+.col-md-7.margin-right1 {
+  clear: both;
+}
+.tutdemo h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+.tutdemo a {
+  background-color: #ffffff;
+  display:inline-block;
+  margin: 0 10%;
+  width:80%;
+  text-align: center;
+}
+.ref1 {
+  margin: 40px 0 20px;
+}
+.ref2 {
+  margin: 30px 0 20px;
+}
+.color-pic {
+  margin: 30px 0 20px;
+}
+.color-pic > a {
+  display: inline-block;
+}
+.color-pic div {
+  background: url("../images/colorpicker.gif") no-repeat;
+  height: 70px;
+  margin-left: 41px;
+  margin-top: 14px;
+  width: 80px;
+}
+.color-pic h3 {
+  padding-left: 33px;
+   font-size: 17px;
+   color:#555;
+}
+.refrence li a {
+  color: #555555;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.refrence li a::before {
+  color: #ff4800;
+  content: ">> ";
+  font-weight: bold;
+  font-size:11px;
+}
+.refrence {
+  padding: 0 15px;
+}
+.refrence h1 {
+  font-size: 32px;
+  font-weight:normal;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.footer {
+  margin-top: 15px;
+}
+.socialMedia {
+  text-align: center;
+}
+.about ul {
+  text-align: right;
+}
+.about ul li {
+  display: inline-block;
+  font-size: 11px;
+}
+.about ul li a {
+  color: #555555;
+  padding: 0 5px;
+}
+.footer2{
+	text-align:center;
+	padding-bottom:20px;
+}
+.footer2 > h3 {
+  background: none repeat scroll 0 0 #555555;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 0;
+  margin:5px 0;
+}
+.footer2 > p {
+  color: #800000;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+.footer2 span {
+  font-style: italic;
+}
+@media screen and (max-width:920px){
+.section .container {
+  padding: 0 15px 40px;
+}
+}
+@media screen and (max-width:767px){
+.srch-section {
+  bottom: 20px;
+  margin: 20px 0;
+  position: relative;
+  right: 0;
+}
+.row-offcanvas-left {
+  position: relative;
+  left:0;
+  transition: all 0.25s ease-out 0s;
+}
+.left-aside {
+  position: absolute;
+  top: 0;
+  width: 70%;
+}
+.row-offcanvas-left .left-aside {
+  left: -70%;
+}
+.row-offcanvas-left.active {
+  left: 70%;
+}
+}
+@media screen and (max-width:479px){
+.tutdemo a {
+  font-size: 12px;
+  margin: 0 5%;
+  width: 90%;
+}
+}
