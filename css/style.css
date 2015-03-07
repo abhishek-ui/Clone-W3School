@@ -352,7 +352,7 @@ a.btn:hover {
   width: 70%;
 }
 .row-offcanvas-left .left-aside {
-  left: -70%;
+  left: -60%;
 }
 .row-offcanvas-left.active {
   left: 70%;
